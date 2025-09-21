@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Archivo */
+@font-face {
+    font-family: 'Archivo';
+    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Archivo';
+    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Archivo';
+    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
+    font-weight: 800;
+}
+
+/* Inter */
+@font-face {
+    font-family: 'Inter';
+    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
+    font-weight: 800;
+}
