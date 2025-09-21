@@ -5,45 +5,37 @@
 /* Archivo */
 @font-face {
     font-family: 'Archivo';
-    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Archivo';
-    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
-    font-weight: 500;
+    src: url('/font/Archivo/Archivo-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Archivo';
-    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
-    font-weight: 700;
-}
-@font-face {
-    font-family: 'Archivo';
-    src: url('/public/font/Archivo/Archivo-Italic-VariableFont_wdth\,wght.ttf') format('ttf');
-    font-weight: 800;
+    src: url('/font/Archivo/Archivo-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
 }
 
 /* Inter */
 @font-face {
     font-family: 'Inter';
-    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Inter';
-    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
-    font-weight: 500;
+    src: url('/font/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
-    font-weight: 700;
+    font-family: 'Inter';
+    src: url('/font/Inter/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
 }
+
+/* Gilroy (using Inter as fallback) */
 @font-face {
     font-family: 'Gilroy';
-    src: url('/public/font/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf') format('ttf');
-    font-weight: 800;
+    src: url('/font/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
 }
