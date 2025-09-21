@@ -81,7 +81,7 @@ export default function Backyard() {
               <img
                 src={item.img}
                 alt={item.alt}
-                className="mx-auto mb-4"
+                className="mx-auto mb-4 h-[191px] "
               />
               <div>
                     <h3 className="w-xs flex items-center font-archivo text-xl lg:text-lg lg:mt-[-40px] text-[#303030] font-semibold rounded-full bg-[#F4F6F7] py-3 px-3 mb-4 relative z-30">
@@ -89,7 +89,7 @@ export default function Backyard() {
                         {i + 1}
                       </span>
                       {item.small}</h3>
-                    <h4 className="flex items-center justify-center font-archivo text-lg font-extrabold px-8 pt-8 pb-3 text-[#2D322F] bg-[#F4F6F7] rounded-t-[31px]">{item.title}</h4>
+                    <h4 className="h-auto flex items-center justify-center font-archivo text-lg font-extrabold px-8 pt-8 pb-3 text-[#2D322F] bg-[#F4F6F7] rounded-t-[31px]">{item.title}</h4>
                     <p className="font-inter font-medium text-[14px] text-[#787878] bg-[#F4F6F7] px-8 pb-8  rounded-b-[31px]">{item.text}</p>
               </div>  
             </div>
