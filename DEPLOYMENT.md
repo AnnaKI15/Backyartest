@@ -19,10 +19,15 @@
 5. Vercel автоматично виявить, що це Vite проект
 6. Налаштування:
    - **Framework Preset**: Vite
-   - **Build Command**: `npm run build`
+   - **Build Command**: `npx vite build` (або залиште автоматичне)
    - **Output Directory**: `dist`
    - **Install Command**: `npm install`
 7. Натисніть "Deploy"
+
+### Якщо виникає помилка з дозволами:
+
+- Спробуйте змінити Build Command на `npx vite build`
+- Або видаліть vercel.json і дозвольте Vercel автоматично виявити налаштування
 
 ## Деплой на Cloudflare Pages
 
@@ -64,9 +69,18 @@ wrangler pages deploy dist
 
 ## Можливі проблеми та рішення
 
+### Проблема: Permission denied для Vite
+
+**Помилка**: `sh: line 1: /vercel/path0/node_modules/.bin/vite: Permission denied`
+**Рішення**:
+
+- Змініть Build Command на `npx vite build`
+- Або видаліть vercel.json і дозвольте Vercel автоматично виявити налаштування
+- Переконайтеся, що в package.json є правильні scripts
+
 ### Проблема: 404 при переході на підсторінки
 
-**Рішення**: Перевірте, що файли `vercel.json` та `_redirects` створені правильно
+**Рішення**: Перевірте, що файл `_redirects` створений правильно для Cloudflare Pages
 
 ### Проблема: Не завантажуються шрифти
 
@@ -74,7 +88,7 @@ wrangler pages deploy dist
 
 ### Проблема: Помилки збірки
 
-**Рішення**: Запустіть `npm run build` локально для перевірки
+**Рішення**: Запустіть `npx vite build` локально для перевірки
 
 ## Контакти
 
