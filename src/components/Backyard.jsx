@@ -81,10 +81,10 @@ export default function Backyard() {
               <img
                 src={item.img}
                 alt={item.alt}
-                className="mx-auto mb-4 h-24"
+                className="mx-auto mb-4"
               />
               <div>
-                    <h3 className="w-xs flex items-center font-archivo text-xl lg:text-lg text-[#303030] font-semibold rounded-full bg-[#F4F6F7] py-3 px-3 mb-4 relative z-30">
+                    <h3 className="w-xs flex items-center font-archivo text-xl lg:text-lg lg:mt-[-40px] text-[#303030] font-semibold rounded-full bg-[#F4F6F7] py-3 px-3 mb-4 relative z-30">
                       <span className="w-8 h-8 flex items-center justify-center rounded-full bg-[#2D322F]  text-white font-bold mr-8">
                         {i + 1}
                       </span>
